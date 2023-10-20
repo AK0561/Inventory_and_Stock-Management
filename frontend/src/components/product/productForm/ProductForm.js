@@ -35,7 +35,7 @@ const ProductForm = ({
                 <img src={imagePreview} alt="product" />
               </div>
             ) : (
-              <p>No image set for this poduct.</p>
+              <p>No image set for this product.</p>
             )}
           </Card>
           <label>Product Name:</label>

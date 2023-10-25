@@ -28,13 +28,13 @@ Before you begin, make sure you have the following prerequisites:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/inventory-management-mern.git
+   git clone https://github.com/AK0561/Inventory_and_Stock-Management.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd inventory-management-mern
+   cd Inventory_and_Stock-Management
    ```
 
 3. Install server dependencies:
@@ -46,7 +46,7 @@ Before you begin, make sure you have the following prerequisites:
 4. Navigate to the client directory:
 
    ```bash
-   cd client
+   cd ./frontend/src
    ```
 
 5. Install client dependencies:
@@ -64,22 +64,20 @@ Before you begin, make sure you have the following prerequisites:
 7. Start the server and client concurrently:
 
    ```bash
-   npm run dev
+   npm start
    ```
 
 The application should now be running. Open your web browser and visit `http://localhost:3000` to access the Inventory and Stock Management System.
 
 ## Features
 
-- **User Authentication**: Secure user authentication and authorization for administrators and employees.
+- **User Authentication**: Secure user authentication and authorization for administrators.
 
 - **Product Management**: Easily add, edit, and delete products in your inventory. Each product can have details like name, category, price, and stock levels.
 
-- **Stock Management**: Keep track of the quantity of each product in stock. Receive alerts when stock levels are low.
+- **Stock Management**: Keep track of the quantity of each product in stock.
 
 - **Order Management**: Create and manage customer orders. View order history and details.
-
-- **Reporting**: Generate reports on product sales, order history, and current stock levels.
 
 - **Dashboard**: An interactive dashboard provides an overview of key metrics and data.
 
@@ -92,8 +90,6 @@ The application should now be running. Open your web browser and visit `http://l
 3. **Product Management**: Add, edit, and delete products. Update stock levels.
 
 4. **Order Management**: Create and manage customer orders.
-
-5. **Reports**: Generate reports to analyze product sales, order history, and current stock levels.
 
 ## Technology Stack
 
